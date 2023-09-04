@@ -6,7 +6,7 @@
 flowchart TB
 startNode((Start))
 0[SendMessage\nПриветствие]
-1{VacationApproved}
+1{IsVacationApproved}
 2[SendMessage\nУкажите дату начала отпуска]
 3["WaitFor\nUserMessage"]
 4[SendMessage\nУкажите количество дней отпуска]
